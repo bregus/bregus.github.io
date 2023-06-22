@@ -30,31 +30,51 @@
 			border-radius: 16px;
 		}
 		.button {
-			background-color: black;
-			border: none;
-			color: white;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			padding: 16px;
+			gap: 10px;
 			font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-			background-color: #1274FF;;
-			text-align: center;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 20px;
+			color: #FFFFFF;
+			position: absolute;
+			left: 4.27%;
+			right: 4.27%;
+			top: 87.44%;
+			bottom: 6.16%;
 			text-decoration: none;
-			display: inline-block;
-			font-size: 20px;
-			width: 100%;
-			cursor: pointer;
+
+			/* Basic/Blue [day] */
+
+			background: #1274FF;
+			border-radius: 14px;
       	}
+		.google-map iframe {
+     		height: 85%;
+     		width: 100%;
+     		left: 0;
+     		top: 0;
+     		position: absolute;
+		 }
 	</style>
 
 	<head> <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
 	</head> 
 	<body style="background-color: white;"> 
 		<meta name="format-detection" content="telephone=no">
-		<div class="center">
-			<a href="isapp://lk?screen=StreamPlayer&cameraId=7877" target="_blank" class="button">Click Here</a>
+		<div class="google-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2331277.4727813946!2d58.43627881871836!3d55.207087543352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1687440532133!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
-		<div class="rectanglee" style="padding-left: 65px;">
-			<p style="width: 85%;">11010000 10010010 11010001 10001011 11010001 10000101 11010000 10111110 11010000 10110100 11010000 10111000 00100000 11010000 10111101 11010000 10110000 00100000 11010001 10000011 11010000 10111011 11010000 10111000 11010001 10000110 11010001 10000011
-                </p>
-		</div>
+		<a href="isapp://lk?screen=StreamPlayer&cameraId=7877" target="_blank" class="button">Click Here</a>
+		<!-- <div class="rectanglee" style="padding-left: 65px;"> -->
+			<!-- <p style="width: 85%;">11010000 10010010 11010001 10001011 11010001 10000101 11010000 10111110 11010000 10110100 11010000 10111000 00100000 11010000 10111101 11010000 10110000 00100000 11010001 10000011 11010000 10111011 11010000 10111000 11010001 10000110 11010001 10000011 -->
+                <!-- </p> -->
+		<!-- </div> -->
 	</body>
  </html>
 
